@@ -1,0 +1,23 @@
+.c1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 20px solid red;
+}
+.c2{
+	width: 10px;
+	height: 100px;
+	background-color: red;
+	margin: 10px;
+	margin-left: 85px;
+	transform-origin: bottom;
+	animation: movet 7s infinite; 
+}
+@keyframes movet{
+	from{ transform: rotate(0deg); }
+	to{ transform: rotate(360deg); }
+}
+
+.c2:hover{
+	animation-play-state:paused;
+}

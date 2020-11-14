@@ -1,0 +1,47 @@
+div{
+	width: 150px;
+	height: 400px;
+	border: 15px solid black;
+	margin: 50px;
+	background-color:gray; 
+}
+
+p{
+border: 3px solid black;
+width: 100px;
+height: 100px;
+margin: 15px;
+border-radius: 50%; 
+}
+#red{
+	background-color: red;
+	animation-name: e1;
+	animation-duration: 3s;
+}
+#orange{
+	background-color: orange;
+	animation-name: e2;
+	animation-duration: 3s;
+}
+#green{
+	background-color: green;
+	animation-name: e3;
+	animation-duration: 3s;
+}
+@keyframes e1 {
+  0%   {background-color: gray;}
+  35%  {background-color: red;}
+  100% {background-color: gray;}
+}
+@keyframes e2 {
+  0%   {background-color: gray;}
+  35%  {background-color: gray;}
+  50%  {background-color: orange;}
+  100% {background-color: gray;}
+}
+@keyframes e3 {
+  0%   {background-color: gray;}
+  35%  {background-color: gray;}
+  50%  {background-color: gray;}
+  100% {background-color: green;}
+}

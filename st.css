@@ -1,0 +1,18 @@
+
+.q{
+	width: 200px;
+	height: 200px;
+	border:20px solid green;
+	position: absolute;	
+	margin: 50px;
+}
+.i{
+	width: 200px;
+	height: 200px;
+	border:20px solid green;
+	transform: rotate(-45deg);
+	position: absolute;	
+	margin: 50px;
+    
+}
+

@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.road{
+	height: 300px;
+	background: gray;
+	box-sizing: border-box;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+	width: 100%;
+}
+
+.lin{
+	box-sizing: border-box;
+	border: 5px dashed white;
+	height: 0;
+	width: 100%;
+	position: absolute;
+	top: 141px;
+}
+
+.m{
+	position: absolute;
+	width: 66px;
+    top: 36px;
+    animation-name: drive;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.n{
+	position: absolute;
+	width: 79px;
+    top: 166px;
+     animation-name: drive;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes drive{
+	from{ transform: translateX(0px) }
+	to{ transform: translateX(1800px); }
+}
